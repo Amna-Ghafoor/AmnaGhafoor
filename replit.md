@@ -8,14 +8,14 @@ Showcase Amna Ghafoor's work as a Data Scientist & AI Enthusiast, featuring her 
 
 ## Tech Stack
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Fonts**: Google Fonts (Inter)
-- **Design**: Minimal, responsive design with smooth animations
+- **Fonts**: Google Fonts (Poppins for hero greeting, Inter for body text)
+- **Design**: Ali Abdaal-inspired minimal design with friendly, approachable aesthetic
 
 ## Color Palette
 - Base Background: `#FFFFFF` (White)
-- Light Pink Accent: `#FFF0F5`
-- Light Purple Accent: `#D8B4F8`
-- Dark Purple Text: `#4B0082`
+- Text Color: `#000000` (Black)
+- Button Default: `#FFD6E8` (Light Pink)
+- Button Hover: `#FFF9C4` (Light Yellow)
 
 ## Sections
 1. **Navigation**: Sticky navbar with smooth scrolling
@@ -52,7 +52,11 @@ Showcase Amna Ghafoor's work as a Data Scientist & AI Enthusiast, featuring her 
 - 2025-11-19: Initial project creation with all core sections
 - Added responsive design for mobile devices
 - Implemented smooth scroll animations and hover effects
-- Updated color scheme to white background with pink/purple accents only
+- Updated to Ali Abdaal-inspired friendly aesthetic:
+  - Hero section with "Hey friends 👋" greeting in playful Poppins font
+  - Clean black text on white background throughout
+  - Light pink buttons with light yellow hover effects
+  - Smooth 0.3s transitions on all interactive elements
 - CV button now links to Google Drive
 - First project renamed to "Mock Interview Chat Bot" with updated demo link
 - Contact form configured to open email client with pre-filled information
