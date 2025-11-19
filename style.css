@@ -9,13 +9,11 @@
 }
 
 :root {
-    --color-bg-light: #FFF0F5;
-    --color-bg-section: #FCE4F3;
+    --color-accent-pink: #FFF0F5;
     --color-accent: #D8B4F8;
     --color-text-dark: #4B0082;
     --color-white: #ffffff;
     --color-shadow: rgba(75, 0, 130, 0.1);
-    --color-hover: #C9A0E7;
     --transition: all 0.3s ease;
 }
 
@@ -25,7 +23,7 @@ html {
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: var(--color-bg-light);
+    background-color: var(--color-white);
     color: var(--color-text-dark);
     line-height: 1.7;
     overflow-x: hidden;
@@ -121,7 +119,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 4rem 0;
-    background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg-section) 100%);
+    background: var(--color-white);
 }
 
 .hero-content {
@@ -185,9 +183,10 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: var(--color-hover);
+    background-color: var(--color-accent);
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(216, 180, 248, 0.5);
+    opacity: 0.9;
 }
 
 .btn-secondary {
@@ -205,11 +204,11 @@ body {
 .btn-outline {
     background-color: transparent;
     color: var(--color-text-dark);
-    border: 2px solid var(--color-text-dark);
+    border: 2px solid var(--color-accent);
 }
 
 .btn-outline:hover {
-    background-color: var(--color-text-dark);
+    background-color: var(--color-accent);
     color: var(--color-white);
     transform: translateY(-3px);
 }
@@ -270,7 +269,7 @@ section {
    =================================== */
 
 .projects {
-    background-color: var(--color-bg-section);
+    background-color: var(--color-white);
 }
 
 .projects-grid {
@@ -284,6 +283,7 @@ section {
     background-color: var(--color-white);
     padding: 2rem;
     border-radius: 20px;
+    border: 1px solid var(--color-accent-pink);
     box-shadow: 0 4px 15px var(--color-shadow);
     transition: var(--transition);
     cursor: pointer;
@@ -291,7 +291,8 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(75, 0, 130, 0.15);
+    border-color: var(--color-accent);
+    box-shadow: 0 10px 30px rgba(216, 180, 248, 0.3);
 }
 
 .project-icon {
@@ -321,7 +322,7 @@ section {
 }
 
 .tech-tag {
-    background-color: var(--color-bg-section);
+    background-color: var(--color-accent-pink);
     color: var(--color-text-dark);
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
@@ -358,7 +359,8 @@ section {
 }
 
 .project-link:hover {
-    color: var(--color-hover);
+    color: var(--color-accent);
+    opacity: 0.8;
 }
 
 /* ===================================
@@ -377,7 +379,7 @@ section {
 }
 
 .skill-card {
-    background-color: var(--color-bg-light);
+    background-color: var(--color-accent-pink);
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
@@ -409,7 +411,7 @@ section {
    =================================== */
 
 .contact {
-    background-color: var(--color-bg-section);
+    background-color: var(--color-white);
 }
 
 .contact-wrapper {
@@ -443,7 +445,8 @@ section {
 }
 
 .contact-item a:hover {
-    color: var(--color-hover);
+    color: var(--color-accent);
+    opacity: 0.8;
 }
 
 .contact-form {
@@ -461,12 +464,12 @@ section {
 .form-group textarea {
     width: 100%;
     padding: 1rem;
-    border: 2px solid var(--color-bg-section);
+    border: 2px solid var(--color-accent-pink);
     border-radius: 10px;
     font-size: 1rem;
     font-family: inherit;
     transition: var(--transition);
-    background-color: var(--color-bg-light);
+    background-color: var(--color-accent-pink);
 }
 
 .form-group input:focus,

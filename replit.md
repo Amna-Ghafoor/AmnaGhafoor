@@ -12,8 +12,8 @@ Showcase Amna Ghafoor's work as a Data Scientist & AI Enthusiast, featuring her 
 - **Design**: Minimal, responsive design with smooth animations
 
 ## Color Palette
-- Light Pink Background: `#FFF0F5`
-- Soft Section Background: `#FCE4F3`
+- Base Background: `#FFFFFF` (White)
+- Light Pink Accent: `#FFF0F5`
 - Light Purple Accent: `#D8B4F8`
 - Dark Purple Text: `#4B0082`
 
@@ -52,3 +52,7 @@ Showcase Amna Ghafoor's work as a Data Scientist & AI Enthusiast, featuring her 
 - 2025-11-19: Initial project creation with all core sections
 - Added responsive design for mobile devices
 - Implemented smooth scroll animations and hover effects
+- Updated color scheme to white background with pink/purple accents only
+- CV button now links to Google Drive
+- First project renamed to "Mock Interview Chat Bot" with updated demo link
+- Contact form configured to open email client with pre-filled information

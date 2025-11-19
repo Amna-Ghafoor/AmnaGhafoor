@@ -75,10 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
         
-        // Show success message
-        alert(`Thank you, ${name}! Your message has been received. I'll get back to you at ${email} soon.`);
+        const mailtoLink = `mailto:contact.amnaghafoor@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message)}`;
+        window.location.href = mailtoLink;
         
-        // Reset form
+        alert(`Thank you, ${name}! Your default email client will open. Please send the message from there.`);
+        
         contactForm.reset();
     });
 
