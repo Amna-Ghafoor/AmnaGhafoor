@@ -57,6 +57,11 @@ Showcase Amna Ghafoor's work as a Data Scientist & AI Enthusiast, featuring her 
   - Clean black text on white background throughout
   - Light pink buttons with light yellow hover effects
   - Smooth 0.3s transitions on all interactive elements
+- About Me section redesigned:
+  - New personal content highlighting journey and passion for data science & AI
+  - Two-column layout with profile image (desktop: text left, image right; mobile: stacked)
+  - Profile image with rounded corners and shadow effect
+  - "Hey, I'm Amna Ghafoor" friendly subtitle
 - CV button now links to Google Drive
 - First project renamed to "Mock Interview Chat Bot" with updated demo link
 - Contact form configured to open email client with pre-filled information
