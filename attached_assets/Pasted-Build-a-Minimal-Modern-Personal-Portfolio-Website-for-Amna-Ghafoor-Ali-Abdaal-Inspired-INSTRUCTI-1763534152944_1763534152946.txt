@@ -1,0 +1,189 @@
+Build a Minimal, Modern Personal Portfolio Website for Amna Ghafoor (Ali Abdaal–Inspired)
+
+INSTRUCTIONS FOR REPLIT AI:
+
+Create a clean, modern, lightweight personal portfolio website for Amna Ghafoor, inspired by Ali Abdaal’s minimal, friendly, bright aesthetic.
+
+Use HTML + CSS + JavaScript only.
+
+No external APIs or dynamic data sources.
+
+Fully responsive for mobile and desktop.
+
+Smooth animations and hover effects for cards/buttons.
+
+---------------------------------------
+✅ 1. DESIGN GUIDELINES
+---------------------------------------
+Overall Style
+
+Minimal, soft, and elegant
+
+Rounded corners, soft shadows
+
+Smooth spacing and high readability
+
+Subtle fade-in animations
+
+Color Palette
+
+#FFF0F5 — Light Pink (Background)
+
+#FCE4F3 — Soft Section Background
+
+#D8B4F8 — Light Purple Accent (Buttons, Links, Highlights)
+
+#4B0082 — Dark Purple Text
+
+---------------------------------------
+✅ 2. SECTIONS TO INCLUDE
+---------------------------------------
+1. Navbar
+
+Logo text: Amna Ghafoor
+
+Menu: About | Projects | Skills | Contact
+
+Sticky + minimal
+
+2. Hero Section
+
+Name: Amna Ghafoor
+
+Title: Data Scientist & AI Enthusiast
+
+Short bio:
+
+“Hi, I’m Amna — a data enthusiast and AI learner who loves turning messy data into meaningful insights and building smart systems that actually help people. I recently started working at AKD Securities Limited, where I’m applying my data science and AI skills in finance.”
+
+Buttons:
+
+LinkedIn
+
+Download CV
+
+Email Me
+
+3. About Section
+
+I’m Amna, a Computer Science graduate who fell in love with data science and AI somewhere between analyzing messy spreadsheets and training my first ML model. I’m especially interested in how data, automation, and intelligent systems can simplify work and support better decision-making.
+
+I’ve interned at Kangroo Ventures and the National Incubation Center Faisalabad, where I worked on building recommendation systems, sentiment analysis pipelines, and startup research dashboards.
+
+I enjoy learning fast, thinking analytically, and building practical AI-driven solutions.
+
+4. Projects Section
+
+Projects will appear in cards with hover effects, showing title, description, tech stack, and links.
+
+🧠 Ace-Bot 💼 — AI Chatbot
+
+GitHub: https://github.com/Amna-Ghafoor/Ace_Bot
+
+Demo: https://youtu.be/TRNg72vQni
+
+A chatbot built as my final project for the Agentic AI Bootcamp. Uses LangChain, OpenAI, FAISS, Gradio (all simulated here) to deliver context-aware conversations.
+
+🏗️ FlexiBuild — AI-Powered Home Construction Platform
+
+Demo: https://youtu.be/Jysmng4JO88?si=BHBofQVXektBxrSv
+
+Built to modernize home construction in Pakistan. Features: AI-generated floor plans, real-time cost estimation, and integrated contractor marketplace. Tech stack: React, Tailwind CSS, Express, PostgreSQL.
+
+📊 Electric Vehicle Dashboard (Power BI)
+
+GitHub: https://github.com/Amna-Ghafoor/Electric-Vehicle-Dashboard-Power-BI-
+
+Visualized EV adoption trends using interactive charts and filters.
+
+📚 RAG Workflow with LangChain + Groq + FAISS
+
+GitHub: https://github.com/Amna-Ghafoor/RAG-Workflow-with-LangChain-Groq-API-and-FAISS
+
+Built retrieval pipelines with vector stores and optimized LLM responses.
+
+🤖 AI Agentic System (CrewAI + Langfuse)
+
+GitHub: https://github.com/Amna-Ghafoor/AI-Agentic-System-using-CrewAI-and-Langfuse
+
+Autonomous AI workflow capable of planning and executing tasks.
+
+🧩 Context-Aware LLM Agent (LangChain)
+
+GitHub: https://github.com/Amna-Ghafoor/Context-Aware-LLM-Agent-Using-LangChain
+
+Built an LLM agent with context memory for consistent multi-turn responses.
+
+❤️ Heart Disease Prediction (KNN)
+
+GitHub: https://github.com/Amna-Ghafoor/Heart-Disease-Prediction-using-KNN-Algorithm
+
+Full ML pipeline with preprocessing, feature engineering, and evaluation.
+
+📈 Education Data Analysis (Excel)
+
+GitHub: https://github.com/Amna-Ghafoor/Excel-Portfolio-Project-on-Education-in-Punjab-Pakistan
+
+Analyzed and visualized education trends in Punjab.
+
+🚢 Titanic Dataset – Exploratory Data Analysis
+
+GitHub: https://github.com/Amna-Ghafoor/EDA_on_titanic_dataset
+
+Full EDA with visual exploration and statistical insights.
+
+5. Skills Section
+
+Display in a grid with soft purple highlight:
+
+Programming: Python, SQL, C++
+AI / ML: RAG, LLMs, LangChain, CrewAI, ML models
+Data: Data Wrangling, Cleaning, Manipulation
+Visualization: Power BI, Tableau, Excel
+Soft Skills: Problem-solving, Communication, Leadership, Teamwork
+Math & Stats
+
+6. Contact Section
+
+📧 Email: contact.amnaghafoor@gmail.com
+
+📍 Faisalabad, Pakistan
+
+🔗 LinkedIn: linkedin.com/in/amnaghafoor/
+
+🌐 Portfolio: amnaghafoor.carrd.co
+
+Simple contact form (Name, Email, Message)
+
+---------------------------------------
+✅ 3. FUNCTIONAL REQUIREMENTS
+---------------------------------------
+
+Smooth scroll animations
+
+Fade-in effects for sections
+
+Hover effects on project cards and buttons
+
+Responsive design (desktop + mobile)
+
+Sticky navbar
+
+Footer: ©2025 Amna Ghafoor
+
+---------------------------------------
+✅ 4. OUTPUT
+---------------------------------------
+
+Provide:
+✔ index.html
+✔ style.css
+✔ script.js
+
+Self-contained (no APIs)
+
+Include comments for easy editing
+
+Instructions for deploying on Replit
+
+⭐ GENERATE THE FULL WEBSITE NOW
